@@ -1,0 +1,36 @@
+
+.search_content {
+
+    float: right;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#search_form {
+
+    border:0.1em solid rgba(  145, 156, 147  ,1);
+
+    padding: 0.3em;
+    border-radius: 8em;
+    background: white;
+
+    font-family: verdana;
+    display:inline;
+}
+#input_search {
+    transition:all 0.2s ease-out;
+    background-color: transparent;
+    font-size: 0.9em;
+    border: 0;
+    opacity:0;
+    width: 0;
+
+}
+#input_search:focus{
+    width: 8em;
+    opacity:1
+}
+.fa, .fa-search {
+    color: rgba(  145, 156, 147  ,1);
+}
+
